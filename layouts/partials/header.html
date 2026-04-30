@@ -6,7 +6,7 @@
       </svg>
     </a>
   {{ else }}
-    <a class="btn" href="{{ .Site.Home.RelPermalink }}">
+    <a class="btn" href="{{ .Site.Params.HeaderLink | default .Site.Home.RelPermalink }}">
       {{ .Site.Title }}
     </a>
   {{ end }}

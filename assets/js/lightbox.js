@@ -10,7 +10,7 @@ if (gallery) {
     gallery,
     children: ".gallery-item",
     showHideAnimationType: "zoom",
-    bgOpacity: 1,
+    bgOpacity: 0.95,
     pswpModule: PhotoSwipe,
     imageClickAction: "close",
     closeTitle: params.closeTitle,
